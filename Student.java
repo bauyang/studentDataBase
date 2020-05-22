@@ -43,7 +43,7 @@ public class Student {
             final Scanner in = new Scanner(System.in);
             final String course = in.nextLine();
             if (!course.equals("Q")) {
-            courses = courses + "\n" + course;
+            courses = courses + "\n  " + course;
             tuitionBalance += costOfCourse;
             }
              else  {break;} 
